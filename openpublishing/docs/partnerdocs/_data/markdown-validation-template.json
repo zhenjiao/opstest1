@@ -1,0 +1,14 @@
+{
+rules : [
+    "plugin-contract-name-1",
+    { name: "plugin-contract-name-2", disable: true}
+],
+tagRules : [
+    {
+        tagNames: ["p"],
+        behavior: "Warning",
+        messageFormatter: "Tag {0} is not valid.",
+        openingTagOnly: true
+    }
+]
+}

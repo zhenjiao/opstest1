@@ -1,0 +1,39 @@
+{
+  "build": {
+    "content":
+      [
+        {
+          "files": ["**/**.md"],
+          "exclude": ["**/obj/**"]
+        }
+      ],
+    "resource": [
+        {
+          "files": ["**/images/**"],
+          "exclude": ["**/obj/**"]
+        }
+    ],
+    "globalMetadata": {
+        "ROBOTS": "NOINDEX, NOFOLLOW",
+        "ms.sitesec": "library",
+        "breadcrumb_path": "/openpublishing/breadcrumb/toc.json"
+    },
+    "fileMetadata": {
+        "priority": {
+            "obj/docfx/**": 1.0,
+            "**.md": 2.5,
+            "spec/**.md": 3,
+            "tutorial/**.md": 1.2
+         },
+        "keywords": {
+            "obj/docfx/**": ["API", "Reference"],
+            "spec/**.md": ["Spec", "Conceptual"],
+            "**/*markdown.md": ["DFM", "Spec"]
+        }
+    },
+    "externalReference": [
+    ],
+    "template": "op.html",
+    "dest": "openpublishing/docs"
+  }
+}

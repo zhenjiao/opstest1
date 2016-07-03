@@ -1,0 +1,14 @@
+- name: OPS user documentation
+  href: /openpublishing/docs/
+  homepage: /openpublishing/docs/index
+  items:
+  - name: Partner
+    href: /openpublishing/docs/partnerdocs/
+    homepage: /openpublishing/docs/partnerdocs/authoring
+  - name: Engineer
+    href: /openpublishing/docs/engdocs/
+    homepage: /openpublishing/docs/engdocs/op_publish_design
+    items:
+    - name: Spec
+      href: /openpublishing/docs/specdocs/
+      homepage: /openpublishing/docs/specdocs/index
