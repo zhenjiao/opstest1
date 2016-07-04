@@ -1,21 +1,23 @@
 {
   "build": {
-    "content":
-      [
-        {
-          "files": ["**/**.md"],
-          "exclude": ["**/obj/**"]
-        }
-      ],
+    "content": [
+      {
+        "files": [ "**/**.md" ],
+        "exclude": [ "**/obj/**" ]
+      }
+    ],
     "resource": [
-        {
-          "files": ["**/images/**","**/**.html"],
-          "exclude": ["**/obj/**"]
-        }
+      {
+        "files": [ "**/images/**", "**/**.html" ],
+        "exclude": [ "**/obj/**" ]
+      }
     ],
     "globalMetadata": {
-        "ROBOTS": "NOINDEX, NOFOLLOW",
-        "ms.sitesec": "library"
+      "ROBOTS": "NOINDEX, NOFOLLOW",
+      "ms.sitesec": "library"
+    },
+    "type_mapping": {
+      "Conceptual": "Content"
     },
     "externalReference": [
     ],
