@@ -1,0 +1,20 @@
+{
+  "build": {
+    "content":
+      [
+        {
+          "files": ["toc.yml"],
+          "exclude": ["**/obj/**"]
+        }
+      ],
+    "globalMetadata": {
+        "ROBOTS": "NOINDEX, NOFOLLOW",
+        "ms.sitesec": "library"
+        
+    },
+    "externalReference": [
+    ],
+    "template": "op.html",
+    "dest": "openpublishing/breadcrumb"
+  }
+}

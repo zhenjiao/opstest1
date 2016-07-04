@@ -16,11 +16,11 @@
     "globalMetadata": {
         "ROBOTS": "NOINDEX, NOFOLLOW",
         "ms.sitesec": "library",
-        "breadcrumb_path": "/openpublishing/breadcrumb/toc.json"
+        "breadcrumb_path": "/breadcrumb/toc.json"
     },
     "externalReference": [
     ],
     "template": "op.html",
-    "dest": "openpublishing/docs"
+    "dest": "/docs"
   }
 }
