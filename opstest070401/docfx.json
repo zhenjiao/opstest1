@@ -16,9 +16,6 @@
       "ROBOTS": "NOINDEX, NOFOLLOW",
       "ms.sitesec": "library"
     },
-    "type_mapping": {
-      "Conceptual": "Content"
-    },
     "externalReference": [
     ],
     "template": "op.html",
