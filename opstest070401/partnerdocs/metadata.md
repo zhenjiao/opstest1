@@ -41,7 +41,8 @@ This format is already widely used in Github and will be rendered into a table i
 
 Yaml header MUST be the first thing in the MD file and MUST take the form of valid YAML set between triple-dashed lines. 
 
-* All metadata labels should be in lower case.
+> [!IMPORTANT]
+> All metadata labels should be in lower case, except for ROBOTS, that needs to be in UPPER case.
 
 Here are some examples:
 
@@ -101,7 +102,7 @@ You can see an example as below, file name here supports glob pattern (wildcard)
 
 * Stored in [docfx.json](build-configuration.md) file within a docset.
 
-- "robots": "NOINDEX, NOFOLLOW" - Indicates the search engines if the docset should be indexed by search engines.
+- "ROBOTS": "NOINDEX, NOFOLLOW" - Indicates the search engines if the docset should be indexed by search engines.
 
 ### 2.1 API Scan
 Seee [API Scan](APIScan.md).

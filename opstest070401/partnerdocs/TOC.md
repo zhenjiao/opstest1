@@ -17,11 +17,14 @@
 
 ## [TOC creation and management](TOC-management.md)
 ## [Breadcrumb](breadcrumb.md)
+## [Managed Reference](managed-reference.md)
 ## [REST API](REST_API_Support.md)
 ## [Custom 404](../404.md)
 
 
 # [Step 4: Localization](localization.md)
+## [Localization Configuration](Localization_Configuration.md)
+## [Provision Localized Repos](Provision_Localized_Repo.md)
 
 # [Step 5: Local build and preview](local-build-and-preview.md)
 

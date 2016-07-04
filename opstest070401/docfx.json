@@ -1,35 +1,26 @@
 {
   "build": {
-    "content": [
-      {
-        "files": [
-          "**/*.md"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "opstest070401/**"
-        ]
-      }
-    ],
+    "content":
+      [
+        {
+          "files": ["**/**.md"],
+          "exclude": ["**/obj/**"]
+        }
+      ],
     "resource": [
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "opstest070401/**"
-        ]
-      }
+        {
+          "files": ["**/images/**","**/**.html"],
+          "exclude": ["**/obj/**"]
+        }
     ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {},
-    "fileMetadata": {},
-    "template": [
-      null
+    "globalMetadata": {
+        "ROBOTS": "NOINDEX, NOFOLLOW",
+        "ms.sitesec": "library",
+        "breadcrumb_path": "/openpublishing/breadcrumb/toc.json"
+    },
+    "externalReference": [
     ],
-    "dest": "opstest070401"
+    "template": "op.html",
+    "dest": "openpublishing/docs"
   }
 }

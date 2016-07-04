@@ -70,7 +70,7 @@ To learn more about repo permissions in GitHub, please see the (Repository permi
 
 IMPORTANT: In order for VSC to configure your repo, 
 * Grant admin permissions to "OPS_Admin" team. Only administrators of the repo can configure it. 
-* Grant read permissions to "openpublishing-admin". This is our engineering team account that would need access for any troubleshooting in your repo. 
+* Grant read permissions to "VSC-Eng-Team". This is our engineering team account that would need access for any troubleshooting in your repo. 
 * If you are outside the Microsoft organization, then you need to add "OPS_Admin" to be admin in the organization. This is because we will need to have a couple of tools granted access to the repo in order to make the build work.  
 * Please enter a bug for either Open Publishing or docs via [MSDNHelp portal](http://MSDNHelp) for our team to provision your repo. Information that we need:
  * Repo URL

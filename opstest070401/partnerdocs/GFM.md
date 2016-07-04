@@ -19,7 +19,7 @@ Most of them provide live preview functionality so that you can get a simple pre
 The following contains the list of supported extensions in Open Publishing. 
 
 ### 4.1 File Include
-You can include other file parts into the current file; the included file will also be configured in DFM syntax. 
+You can include other file into the current file; the included file will also be configured in DFM syntax. 
 
 #### NOTE
 > [!NOTE]
